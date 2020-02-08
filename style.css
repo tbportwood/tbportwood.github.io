@@ -1,0 +1,189 @@
+.navbar {
+    padding-left: 100px;
+    font-family:'Franklin Gothic Medium';
+    font-size: 22px;
+    z-index: 9999;
+    height: 60px;
+}
+
+/* .navbar {
+  min-height: 80px;
+} */
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 60px;
+  line-height: 60px;
+}
+
+
+#testactive {
+
+      background-color: green;
+      color: white !important;
+      font: large;
+      font-family:sans-serif;
+      
+    }
+
+/* .navbar-collapse {
+
+    margin-right: 10px;
+
+} */
+a {
+    color: black !important;
+    transition: background-color .5s;
+}
+
+p {font-size: 14pxx;}
+
+/* .navbar-brand {
+	margin-top: -10px !important;
+    margin-bottom: -10px !important;
+} */
+
+
+body {
+
+background-color: lightgray;
+
+}
+a:hover {
+
+    background-color: lightgreen;
+
+}
+
+h1 {
+
+    text-align: center;
+
+}
+
+h2 {
+
+text-align: center;
+
+}
+
+.container-fluid {
+    background-color: white;
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 50px; */
+
+}
+
+.classWithPad {
+
+margin: 0px;
+padding: 50px;
+
+}
+
+.classWPad {
+
+    padding-top: 50px;
+}
+
+
+img.floatLeft {
+    float: left;
+    margin: 4px;
+}
+
+#img0{
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+table{
+    border-collapse: collapse;
+    border: 0px solid green !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  th, td {
+    border-bottom: 1px solid #ddd !important;
+  }
+  
+  
+  
+  
+  
+  
+  th {
+    background-color: green;
+    color: white;
+  }
+  
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  
+  
+  th, td {
+  
+  border-bottom:cadetblue 1px;
+  
+  }
+  
+  table {
+    border: 1px solid black;
+    width: 90%;
+    align: center !important;
+  }
+  
+  th {
+    height: 40px;
+    text-align: left;
+  }
+  
+  tr:hover {background-color: lightgreen;}
+
+
+@media only screen and (max-width: 992px) {
+
+    .navbar {
+    font-family:'Franklin Gothic Medium';
+    font-size: 22px;
+    background-color: green !important;
+    padding: 0 15px;
+    height: 60px;
+    }
+
+    .navbar-brand {
+    padding: 2 15px;
+    height: 60px;
+    line-height: 60px;
+    }
+
+    #navbarTogglerDemo02 > ul > li.nav-item.dropdown.show > div {
+    border: 0px;
+    outline: 0px;
+    background-color:#faf8f8 !important;
+    color:white !important
+
+  }
+
+  #navbarTogglerDemo02 {
+
+    background-color: #faf8f8;
+    margin-right: -20px;
+    margin-left: -8px;
+    /* margin-bottom: -8px;  */
+    padding-top: 10px;
+    padding-right: 25px;
+
+  }
+  #navbarTogglerDemo02 > ul > li.nav-item.dropdown.show > div > a:hover{
+      background-color:lightgreen !important;
+      
+  }
+
+}
